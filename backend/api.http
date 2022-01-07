@@ -1,0 +1,54 @@
+# Creates User
+POST http://127.0.0.1:8000/auth/users/
+Content-Type: application/json
+
+{
+    "email": "test1@gmail.com",
+    "username": "testUser1",
+    "password": "testUserPass"
+}
+
+###
+
+# Login User
+POST http://127.0.0.1:8000/auth/token/login/
+Content-Type: application/json
+
+{
+    "username": "f",
+    "password": "f"
+}
+
+###
+
+# Logout User
+POST http://127.0.0.1:8000/auth/token/logout/
+Content-Type: 'application/json'
+Authorization: Token bdfdd94a38c4210ac996f4a51fd4caf2de70abf1
+
+###
+
+# Current User
+GET http://127.0.0.1:8000/auth/users/me/
+Content-Type: 'application/json'
+Authorization: Token 70abf301a60bd23d631ccc0ca6238a104f398a12
+
+###
+
+# Current User Transactions
+GET http://127.0.0.1:8000/transactions/
+Content-Type: 'application/json'
+Authorization: Token 70abf301a60bd23d631ccc0ca6238a104f398a12
+
+###
+
+DELETE http://127.0.0.1:8000/auth/users/me
+Content-Type: application/json
+
+{
+    "username": "Josh",
+    "password": "1234"
+}
+
+###
+
