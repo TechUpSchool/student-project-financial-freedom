@@ -27,7 +27,7 @@ Originally forked from [here](https://github.com/joshuarichards001/financial-fre
 
 ## Set-up on your Machine
 
-1. Clone the project to your machine `[git clone https://github.com/joshuarichards001/budgeting-web-app.git]`
+1. Clone the project to your machine `[git clone git@github.com:TechUpSchool/student-project-financial-freedom.git]`
 2. Navigate into the directory `[cd budgeting-web-app]`
 3. Navigate into the backend directory `[cd backend]`
 4. Install virtualenv if you haven't already `[pip install virtualenv]` (You might need to use pip3)
