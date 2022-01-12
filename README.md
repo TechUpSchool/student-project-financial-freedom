@@ -32,7 +32,7 @@ Originally forked from [here](https://github.com/joshuarichards001/financial-fre
 3. Navigate into the backend directory `[cd backend]`
 4. Install virtualenv if you haven't already `[pip install virtualenv]` (You might need to use pip3)
 5. Create the virtual environment `[virtualenv env]`
-6. Activate the virtual environment `[source env/bin/activate]`
+6. Activate the virtual environment `[source env/bin/activate] (Macbook) [env\Scripts\activate.bat] (Windows)`
 7. Install the dependencies `[pip install -r requirements.txt]`
 8. Navigate into the frontend directory `[cd ../frontend]`
 9. Install the dependencies `[npm install]`
