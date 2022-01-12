@@ -47,7 +47,7 @@ Then to run this application you will need to perform the following in two separ
 
 1. Create auth_user table in database by running `[python3 manage.py migrate]`
 2. Create Super user by running `[python3 manage.py createsuperuser]`
-3. Username: admin
+3. Username: `[admin]`
 4. Email address: `[enter your email address]`
 5. Password: `[admin1234]`
 
