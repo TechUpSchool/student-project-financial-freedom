@@ -72,6 +72,12 @@ nav {
   align-items: center;
   max-width: 1500px;
   margin: 0 auto;
+  
+  
+  
+}
+.headerContainer{
+  background-color: #6bbcf3;
 }
 
 .headerLogo {
@@ -84,7 +90,7 @@ nav {
 }
 
 .dropbtn {
-  background-color: #333;
+  background-color: #6bbcf3;
   color: white;
   padding: 15px;
   border: none;
@@ -99,7 +105,7 @@ nav {
 .headerContent {
   position: absolute;
   right: 0;
-  background-color:  #333;
+  background-color: #6bbcf3;
   min-width: 180px;
   z-index: 999;
 }
