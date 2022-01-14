@@ -12,6 +12,7 @@ export const INCOME_CATEGORIES: string[] = [
 
 export const EXPENSE_CATEGORIES: string[] = [
   '',
+  'Education',
   'Housing',
   'Transportation',
   'Food',
