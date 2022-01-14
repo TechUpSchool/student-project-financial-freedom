@@ -28,7 +28,7 @@ Originally forked from [here](https://github.com/joshuarichards001/financial-fre
 ## Set-up on your Machine
 
 1. Clone the project to your machine `[git clone git@github.com:TechUpSchool/student-project-financial-freedom.git]`
-2. Navigate into the directory `[cd budgeting-web-app]`
+2. Navigate into the directory `[cd student-project-financial-freedom]`
 3. Navigate into the backend directory `[cd backend]`
 4. Install virtualenv if you haven't already `[pip install virtualenv]` (You might need to use pip3)
 5. Create the virtual environment `[virtualenv env]`
@@ -41,6 +41,35 @@ Then to run this application you will need to perform the following in two separ
 
 1. In the first terminal go into backend `[cd backend]` and run `[python3 manage.py runserver]`
 2. In the second terminal go into frontend `[cd frontend]` and run `[npm start]`
+
+
+## Set-up Database
+
+1. Create auth_user table in database by running `[python3 manage.py migrate]`
+2. Create Super user by running `[python3 manage.py createsuperuser]`
+3. Username: `[admin]`
+4. Email address: `[enter your email address]`
+5. Password: `[admin1234]`
+
+## Add Users to the database
+### User 1
+1. run `[python3 manage.py runserver]`
+2. Navigate to `[http://127.0.0.1:8000/admin/]`
+3. Enter username: `[admin]`
+4. Enter Password: `[admin1234]`
+5. Navigate to AUTHENTICATION AND AUTHORISATION
+6. Go to Users and click `[add]`
+7. On Username enter `[user1]`
+8. On Password enter `[pass]`
+9. Click Save button
+
+### User 2
+1. On Username enter `[user2]`
+2. On Password enter `[pass]`
+3. Click Save button
+
+# After following above instructions, you will ready to login
+
 
 ## Application in Action
 
