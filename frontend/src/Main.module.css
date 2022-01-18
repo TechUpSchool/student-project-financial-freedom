@@ -31,11 +31,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   max-width: 1500px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  margin-left: 350px;
+  margin-top: 40px;
 }
 
 .footerContainer {
-  max-width: 1500px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
